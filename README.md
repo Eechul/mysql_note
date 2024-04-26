@@ -4,4 +4,4 @@
 
 ## Table of Contents
 
-- [Partition](#)
+- [Partition](https://github.com/Eechul/mysql_note/tree/main/partition)
