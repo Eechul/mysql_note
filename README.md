@@ -5,3 +5,4 @@
 ## Table of Contents
 
 - [Partition](https://github.com/Eechul/mysql_note/tree/main/partition)
+- [User Privileges](https://github.com/Eechul/mysql_note/tree/main/user_privileges)
