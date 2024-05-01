@@ -7,5 +7,5 @@
 - [Partition](https://github.com/Eechul/mysql_note/tree/main/partition)
 - [User Privileges](https://github.com/Eechul/mysql_note/tree/main/user_privileges)
 - [Stored Procedure](https://github.com/Eechul/mysql_note/tree/main/stored_procedure)
-- [Session](#)
+- [Session](#https://github.com/Eechul/mysql_note/tree/main/session)
 - [Transaction](#)
