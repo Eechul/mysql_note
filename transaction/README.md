@@ -36,7 +36,7 @@ DB의 상태를 변경시키는 여러 작업의 단위
 ## 트랜잭션 상태
 ![트랜잭션 상태 이미지](transaction_status.png)
 - 활성(active)
-  - 트랜젝션이 실행되어 동작중인 상태
+  - 트랜잭션이 실행되어 동작중인 상태
 - 부분 완료(Partially Committed)
   - COMMIT 이전 SQL문이 수행되고 COMMIT만 남겨둔 상태
 - 완료(Committed)
