@@ -8,6 +8,7 @@
 - [User Privileges](https://github.com/Eechul/mysql_note/tree/main/user_privileges)
 - [Stored Procedure](https://github.com/Eechul/mysql_note/tree/main/stored_procedure)
 - [Function](https://github.com/Eechul/mysql_note/tree/main/function)
+- [Trigger](https://github.com/Eechul/mysql_note/tree/main/trigger)
 - [Session](https://github.com/Eechul/mysql_note/tree/main/session)
 - [Transaction](https://github.com/Eechul/mysql_note/tree/main/transaction)
 - [Lock](#)
