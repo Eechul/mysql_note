@@ -23,7 +23,7 @@ mysql 트리거 정리
 DELIMITER $$
     CREATE TRIGGER trigger_name
     {BEFORE | AFTER} {INSERT | UPDATE | DELETE}
-    ON table_name FOR EACH ROW
+    ON table_name FOR EACH ROW { FOLLOWS | PRECEDES } existing_trigger_name -- 트리거 작동 순서 조작
     BEGIN
         -- 트리거 내용(코드)
     END
@@ -56,12 +56,18 @@ DELIMITER ;
   - 이벤트가 DELETE 일 경우, **값이 삭제 됐으므로, 값이 오지 않는다.**
 
 ## 기타 트리거
-- 정리중
+- 다중 트리거: 한 테이블에 여러개 트리거를 거는 방식
+- 중첩 트리거: 트리거 내용에서의 이벤트(쿼리)가 다른 트리거를 낳는 방식
 
 ## 트리거 작동 순서
-- 정리중
+- 한 테이블에 여러 트리거가 걸려있을때, 작동 순서를 지정할 수 있다.
+- FOLLOWS : 지정한 이름(existing_trigger_name)의 트리거 이후에 현재 트리거 작동
+- PRECEDES : 지정한 이름(existing_trigger_name)의 트리거 전에 현재 트리거 작동
 
 ## 쓰임새
 - 특정 테이블에 대한 이벤트별 로그 기록
 - 데이터 임시 저장기능
+
+## 단점
+- 중첩 트리거는 예상치 못한 트리거를 유발 시킬 수 있어서 유의 해야한다.
 
